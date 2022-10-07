@@ -32,7 +32,7 @@ body {
 
 body::before {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -119,8 +119,15 @@ label {
   border: none;
   background-color: var(--color-white);
   border-radius: 0.25rem;
+
 }
 
 #age-label span {
   font-size: var(--fz-sm);
 }
+
+
+#disabledoption {
+  color: var(--color-darkblue);
+}
+
