@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Elias Miles|Microverse Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title" id="title">freeCodeCamp Survey Form</h1>
+        <p class="description" id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
+
+      <main class="main">
+        <form action="" class="form" id="survey-form">
+          <div class="form-inputs">
+            <label id="name-label" for="">Name</label>
+            <input
+              id="name"
+              name="name"
+              class="form-input"
+              type="text"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-inputs">
+            <label id="email-label" for="">Email</label>
+            <input
+              id="email"
+              name="email"
+              class="form-input"
+              type="text"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-inputs">
+            <label id="age-label" for="">Age <span>(optional)</span></label>
+            <input
+              id="age"
+              name="age"
+              class="form-input"
+              type="number"
+              min="7"
+              max="150"
+              placeholder="Enter your age"
+              required
+            />
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
